@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0px;
+    background-color: #0a0908;
+    color: #c6ac8f;
+    font-family: "Exo 2", sans-serif;
+}
+
+h1{
+    margin: 70px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.recording {
+    width: 400px;
+    height: 100px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.buttons {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.output {
+    height: fit-content;
+    width: fit-content;
+    margin: 100px auto;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+}
+
+textarea{
+    border: 5px solid #5E503F;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+/* Buttons under textarea */
+.extra-btns {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.extra-btns button {
+    background-color:transparent  /*#5E503F*/;
+    border: 1px dotted;
+    padding: 10px 20px;
+    color: #c6ac8f;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.extra-btns button:hover {
+    background-color: #7a6a5580;
+}
+
+
+.notes-container {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.note {
+    background-color: transparent;
+    border: 2px solid #5E503F;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 15px auto;
+    width: 80%;
+    text-align: left;
+    position: relative;
+}
+
+.note button {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background-color: #8b3a3a;
+    border: none;
+    color: #c6ac8f;
+    padding: 4px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.note button:hover {
+    background-color: #a64a4a;
+}

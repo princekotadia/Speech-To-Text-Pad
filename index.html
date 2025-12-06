@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mukh > Patra</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" crossorigin="anonymous" />
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>SayIt </h1>
+
+    <div class="recording">
+        <div class="buttons">
+            <i class="fa-solid fa-microphone-lines"></i>
+            <i class="fa-solid fa-microphone-lines-slash"></i>
+        </div>
+
+        <p>Tap mic to start</p>
+    </div>
+    
+    <div class="output">
+        <h3>Generated Text: </h3>
+        <textarea rows="10" cols="70"></textarea>
+
+        <div class="extra-btns">
+            <button id="saveBtn"> Save Note</button>
+        </div>
+    </div>
+
+    <div class="notes-container">
+        <h3>Saved Notes</h3>
+        <div id="notesList"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
